@@ -1,0 +1,2 @@
+Test file to verify GitHub merge queue works with GitHub Actions.
+Created: 2026-03-16
