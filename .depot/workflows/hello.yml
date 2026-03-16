@@ -1,0 +1,13 @@
+name: Hello
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  hello:
+    name: hello
+    runs-on: depot-ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - run: echo "Hello from Depot CI"
